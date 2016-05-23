@@ -1,0 +1,18 @@
+Paris:
+  title: Seb's home
+  description: Charming room with patio
+  image: images/card-paris.jpg
+  head: seb.jpg
+
+Brussels:
+  title: Anne's home
+  description: Lovely house
+  image: images/card-brussels.jpeg
+  head: anne.jpg
+
+London:
+  title: Romain's home
+  description: Nice flat in Piccadilly
+  image: images/card-london.jpeg
+  head: romain.jpeg
+
