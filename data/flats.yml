@@ -1,0 +1,27 @@
+seb:
+  owner: seb
+  title: Seb's home
+  city: Paris
+  description: Charming room with patio
+  image: images/card-paris.jpg
+  head: seb.jpg
+  banner: ../images/paris-banner.jpg
+
+anne:
+  owner: anne
+  title: Anne's home
+  city: Brussels
+  description: Lovely house
+  image: images/card-brussels.jpeg
+  head: anne.jpg
+  banner: ../images/brussels-banner.jpg
+
+romain:
+  owner: romain
+  title: Romain's home
+  city: London
+  description: Nice flat in Piccadilly
+  image: images/card-london.jpeg
+  head: romain.jpeg
+  banner: ../images/london-banner.jpg
+

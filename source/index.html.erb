@@ -38,14 +38,15 @@ title: Le Wagon Middleman boilerplate
   <div class="container">
     <h2 class="text-center">Your next trip</h2>
     <div class="row">
-      <% data.cards.each do |city, infos| %>
+      <% data.flats.each do |owner, infos| %>
       <div class="col-xs-12 col-sm-4">
         <div class="card" style="background: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.2)), url(<%= infos.image %>);">
-          <div class="card-category"><%= city %></div>
+          <div class="card-category"><%= infos.city %></div>
           <div class="card-description">
             <h2><%= infos.title %></h2>
             <p><%= infos.description %></p></div>
-            <%= image_tag infos.head, class: "avatar card-user avatar-large" %>
+            <%= image_tag infos.head, class: "avatar card-user" %>
+            <%= link_to "#", "flats/#{owner}.html", class: "card-link" %>
           </div>
         </div>
         <% end %>

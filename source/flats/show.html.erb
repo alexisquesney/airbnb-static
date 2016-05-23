@@ -1,0 +1,25 @@
+<!-- Read from data.flats with owner's name as key -->
+<% flat = data.flats[owner] %>
+
+<div class="banner" style="background-image: linear-gradient(-225deg, rgba(0,0,0,0.6) 0%, rgba(0,0,0,0.3) 50%), url('<%= flat.banner %>'); height: 50vh; background-position: center;">
+</div>
+
+<div class="container">
+  <div class="row">
+    <div class="col-xs-12 col-sm-6 col-sm-offset-1">
+      <div class="flat-owner text-center">
+        <%= image_tag flat.head, class: "avatar-large" %>
+        <p ><%= flat.owner %></p>
+      </div>
+      <div class="flat-details">
+        <h1><%= flat.description %></h1>
+        <p><%= flat.city %></p>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+
+
